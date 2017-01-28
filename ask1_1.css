@@ -1,0 +1,96 @@
+#title {
+	background-image: url("images/back_im.jpg");
+    background-attachment: fixed;
+    padding:35px;
+
+	    text-align: center;
+	}
+#contactme {
+	   
+   
+	color: black;
+}
+
+#body {
+	background-color: #F5F5DC	 ;	
+	 
+}
+
+
+#information {
+	padding-top: 40px;
+}
+
+#random_video {
+	preload: none;
+	
+}
+
+#random_audio {
+	preload: none;
+}
+#audio_ {
+	width: 300;
+}
+
+
+#video_ {
+		width: 300px;
+	
+}
+
+
+#image_id {
+	width: 320px;
+	height: 220px;
+	
+	
+}
+a:link {
+	color: blue;
+}
+
+
+a:visited {
+	color: pink;
+}
+
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: red;
+}
+
+
+@media (max-width: 320px) {
+
+#audio_ {
+	width: 250px;
+}
+
+#video_ {
+		width: 250px;
+	
+}
+
+table th{
+	display: none;
+}
+
+ table tr td{
+      margin-bottom: 10px;
+      display: block;
+    }
+
+table td:before{
+	float: left;
+	text-transform:uppercase;
+	font-wight: bold;
+}
+
+
+}
+
